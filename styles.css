@@ -19,6 +19,7 @@ footer{
 	font-family:"Arial",sans-serif;
 }
 .top .media-icons{
+	display:flex;
 	.fa {
 		padding: 10px;
 		font-size:12px;

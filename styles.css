@@ -54,3 +54,32 @@ footer{
 		border-radius:50%;
 	}
 }
+.link-boxes{
+	padding:25px;
+	display:flex;
+	justify-content:space-between;
+}
+.link-boxes>div>ul>li{
+	list-style-type:none;
+}
+h4{
+	text-decoration:underline;
+	text-underline-offset:5px;
+	text-underline-position: right;
+}
+.link-boxes>div>ul{
+	margin-top:6px;
+}
+.link-boxes>div>ul>li>a{
+	text-decoration:none;
+	color:white;
+}
+
+.bottom-details{
+	background-color:rgb(44,48,58);
+	display:flex;
+	justify-content:space-between;
+	align-items:center;
+	padding: 10px 25px;
+	font-size:12px
+}
